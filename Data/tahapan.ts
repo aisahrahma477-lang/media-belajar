@@ -49,18 +49,27 @@ export const daftarTahap: Tahap[] = [
         judul: "📘 Capaian Pembelajaran",
         jenis: "biru",
         isi:
-          "Di akhir fase D, peserta didik dapat membaca, menulis, dan membandingkan bilangan berpangkat bulat. Mereka juga mampu mengoperasikan secara efisien bilangan berpangkat bulat.",
+          "Di akhir fase D, siswa dapat membaca, menulis, dan membandingkan bilangan berpangkat bulat. Mereka juga mampu mengoperasikan secara efisien bilangan berpangkat bulat.",
       },
       {
         judul: "🎯 Tujuan Pembelajaran",
         jenis: "krem",
         daftar: [
-          "Peserta didik mampu menjelaskan konsep bilangan berpangkat positif, negatif, dan nol dengan benar.",
-          "Peserta didik mampu menyelesaikan operasi hitung (perkalian, pembagian, dan perpangkatan) pada bilangan berpangkat menggunakan sifat-sifat eksponen yang tepat.",
+          "Siswa mampu menjelaskan konsep bilangan berpangkat positif, negatif, dan nol dengan benar.",
+          "Siswa mampu menyelesaikan operasi hitung (perkalian, pembagian, dan perpangkatan) pada bilangan berpangkat menggunakan sifat-sifat eksponen yang tepat.",
         ],
       },
+      {judul: "📋 Petunjuk Penggunaan",
+       jenis: "putih",
+       daftar: [
+        "Gunakan media pembelajaran secara beruruan mulai dari tahap 1 hingga tahap 5.",
+        "Perhatikan arahan yang dberikan disetiap tahap sebelum melanjutkan ke tahap berikutnya.",
+        "Pelajari materi dengan sungguh-sungguh dan jangan terburu-buru menyelesaikan kegiatan.",
+        "Pastikan koneksi internet tetap stabil selama menggunakan media.",
+       ]
+      },
       {
-        judul: "🧭 Petunjuk Penggunaan",
+        judul: "🧭 Panduan Pengguna",
         jenis: "ungu-muda",
         isi: "Ikuti Tahapan Pembelajaran Secara Berurutan:",
         daftar: [
@@ -70,12 +79,6 @@ export const daftarTahap: Tahap[] = [
           'Tahap 4: Pendalaman – Klik "Mulai Belajar" pada kartu ungu untuk menerapkan pemahaman pada berbagai contoh soal.',
           'Tahap 5: Tantangan – Klik "Mulai Belajar" pada kartu merah untuk menguji tingkat kemampuan dan penguasaan materi melalui soal-soal latihan.',
         ],
-      },
-      {
-        judul: "📌 Catatan",
-        jenis: "putih",
-        isi:
-          "Disarankan untuk menyelesaikan setiap tahapan secara berurutan (dari Tahap 1 hingga Tahap 5) agar pemahaman materi terbentuk secara optimal.",
       },
     ],
 
