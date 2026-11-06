@@ -69,7 +69,7 @@ export const daftarTahap: Tahap[] = [
        ]
       },
       {
-        judul: "🧭 Panduan Pengguna",
+        judul: "🧭 Panduan",
         jenis: "ungu-muda",
         isi: "Ikuti Tahapan Pembelajaran Secara Berurutan:",
         daftar: [
