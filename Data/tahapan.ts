@@ -134,7 +134,7 @@ export const daftarTahap: Tahap[] = [
         jenis: "biru",
         isi:
           "Silahkan baca materi pembelajaran berikut ini:",
-        bacaan: "https://drive.google.com/file/d/1o36upvDks2iv9QvRyTA6dBHtejvn-ZZq/preview",
+        bacaan: "https://drive.google.com/file/d/1vltU6NbBepeRGvqERcRCjFx4XOn6V_Rc/preview",
       },
       {
         judul: "🎬 Vidio Pembelajaran",
