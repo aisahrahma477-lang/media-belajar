@@ -379,7 +379,7 @@ export default function Home() {
             {aktif.wordwall && (
               <div className="panel ungu-muda">
                 <h3>
-                 🥇 Mari Uji Kemampuanmu
+                 🥇 Mari Berlatih
                 </h3>
 
                 <iframe
@@ -499,6 +499,7 @@ export default function Home() {
               informasi === "tentang"
                 ? "Tentang Kami"
                 : "Bantuan"
+                
             }
             onClick={(e) => e.stopPropagation()}
           >
@@ -513,13 +514,52 @@ export default function Home() {
             <h2>
               {informasi === "tentang"
                 ? "Tentang EduPlay Studio"
-                : "Petunjuk Penggunaan"}
+                : "Bantuan"}
             </h2>
 
             <p>
-              {informasi === "tentang"
-                ? "EduPlay Studio merupakan media pembelajaran matematika berbasis Next.js dan Wordwall untuk siswa SMP/MTs."
-                : "Pilih tahap pembelajaran, baca materi, kerjakan latihan dan permainan jika tersedia, lalu tandai tahap selesai."}
+              {informasi === "tentang" ?(
+                <div className="space-y-3">
+                <p>
+                  EduPlay Studio adalah media pembelajaran matematika interaktif untuk siswa Kelas VIII SMP/MTs, yang dikembangkan untuk membantu kamu memahami materi Bilangan Berpangkat dengan cara yang lebih menyenangkan.
+                </p>
+
+                <p>
+                  Melalui lima tahap belajar, yaitu Petunjuk Pembelajaran, Memahami, Pemahaman, Pendalaman, dan Tantangan, kamu akan belajar lewat video, bahan bacaan, latihan soal, dan permainan edukatif berbasis Wordwall. Semua tahap dirancang agar kamu bisa belajar mandiri, kapan saja dan di mana saja.
+                </p>
+
+                <p>
+                  Media ini dikembangkan oleh Aisah Rahma, mahasiswa Pendidikan Matematika, Universitas Lambung Mangkurat, sebagai bagian dari penelitian skripsi di bawah bimbingan Bapak Dr.H.Karim,M.Si dan Ibu Juhairiah,M.Pd. 
+                </p>
+              </div>
+              ) : (
+                <div className="space-y-3">
+                  <p>
+                    Butuh bantuan? Cek panduan singkat ini.
+                  </p>
+                  <p className="font-bold">
+                    Kalau ada kendala:
+                  </p>
+                  <ol className="list-decimal ml-6 space-y-2">
+                    <li>
+                      Video atau kuis soal tidak muncul: pastikan koneksi internet stabil, lalu muat ulang halaman.
+                    </li>
+                    <li>
+                      Progres hilang: progres tersimpan di browser, jadi gunakan perangkat dan browser yang sama, dan jangan menghapus data browser atau memakai mode penyamaran.
+                    </li>
+                    <li>
+                      Tampilan terpotong di HP: coba putar layar ke mode lanjut (landscape) atau gunakan layar penuh pada permainan Wordwall.
+                    </li>
+                    <li>
+                      Jawaban tidak bisa diperiksa: pilih salah satu jawaban terlebih dahulu, lalu tekan “Periksa Jawaban”.
+                    </li>
+                  </ol>
+                <p>
+                  Masih bingung? Hubungi pengembang: Aisah Rahma, Pendidikan Matematika, Universitas Lambung Mangkurat.
+                  Email / WhatsApp: aisahrahma477@gmail.com/087815213076
+                </p>
+                </div>
+              )}  
             </p>
           </section>
         </div>

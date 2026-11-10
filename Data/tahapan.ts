@@ -63,7 +63,7 @@ export const daftarTahap: Tahap[] = [
        jenis: "putih",
        daftar: [
         "Gunakan media pembelajaran secara beruruan mulai dari tahap 1 hingga tahap 5.",
-        "Perhatikan arahan yang dberikan disetiap tahap sebelum melanjutkan ke tahap berikutnya.",
+        "Perhatikan arahan yang diberikan di setiap tahap sebelum melanjutkan ke tahap berikutnya.",
         "Pelajari materi dengan sungguh-sungguh dan jangan terburu-buru menyelesaikan kegiatan.",
         "Pastikan koneksi internet tetap stabil selama menggunakan media.",
        ]
@@ -98,7 +98,7 @@ export const daftarTahap: Tahap[] = [
 
     konten: [
       {
-        judul: "🎬  Vidio Pembelajaran ",
+        judul: "🎬  Video Pembelajaran ",
         jenis: "biru",
         isi:
          "Perhatikan Video Pembelajaran Berikut Ini",
@@ -108,7 +108,7 @@ export const daftarTahap: Tahap[] = [
         judul: "📖✏️ Konsep Bilangan Berpangkat",
         jenis: "krem",
         isi:
-          "Bilangan berpangkat adalah bentuk singkat dari perkalian berulang dengan faktor yang sama. Pada bentuk aⁿ, a disebut basis dan n disebut eksponen.",
+          "Bilangan berpangkat adalah bentuk singkat dari perkalian berulang dengan faktor yang sama. Pada aⁿ, a disebut bilangan pokok dan n disebut pangkat. Contoh: 2³ dibaca “dua pangkat tiga”, artinya 2 × 2 × 2 = 8. Hati-hati: 2³ bukan 2 × 3.",
       },
       
     ],
@@ -137,7 +137,7 @@ export const daftarTahap: Tahap[] = [
         bacaan: "https://drive.google.com/file/d/1vltU6NbBepeRGvqERcRCjFx4XOn6V_Rc/preview",
       },
       {
-        judul: "🎬 Vidio Pembelajaran",
+        judul: "🎬 Video Pembelajaran",
         jenis: "krem",
         isi:
           "Mempelajari Sifat-Sifat Bilangan Berpangkat",
@@ -224,7 +224,7 @@ export const daftarTahap: Tahap[] = [
         jenis: "krem",
         daftar: [
           "Bacalah setiap soal dengan teliti.",
-          "Identifikasi basis (bilangan pokok) dan pangkat (eksponen) pada soal.",
+          "Identifikasi bilangan pokok dan pangkat pada soal.",
           "Gunakan sifat perpangkatan yang sesuai.",
           "Periksa kembali jawaban sebelum selesai.",
           "Selesaikan setiap soal sebelum waktunya habis",
