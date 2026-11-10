@@ -521,7 +521,7 @@ export default function Home() {
               {informasi === "tentang" ?(
                 <div className="space-y-3">
                 <p>
-                  EduPlay Studio adalah media pembelajaran matematika interaktif untuk siswa Kelas VIII SMP/MTs, yang dikembangkan untuk membantu kamu memahami materi Bilangan Berpangkat dengan cara yang lebih menyenangkan.
+                  EduPlay Studio adalah media pembelajaran matematika interaktif untuk siswa Kelas VIII SMP/MTs, yang dikembangkan untuk membantu siswa memahami materi Bilangan Berpangkat dengan cara yang lebih menyenangkan.
                 </p>
 
                 <p>
